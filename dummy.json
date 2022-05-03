@@ -1,0 +1,24 @@
+[{
+    "id": "6264d5d89f1df827eb84bb77",
+    "name": "Dianita",
+    "email": "diana@visualpartnership.xyz",
+    "credits": 208,
+    "enrollments": [
+        "Visual Thinking Intermedio",
+        "Visual Thinking Intermedio"
+    ],
+    "previousCourses": 1,
+    "haveCertification": true
+    },
+    {
+    "id": "6264d5d89f1df827eb84bb44",
+    "name": "Rosita",
+    "email": "rosy@visualpartnership.xyz",
+    "credits": 208,
+    "enrollments": [
+        "Visual Thinking Principiante",
+        "Visual Thinking Principiante"
+    ],
+    "previousCourses": 1,
+    "haveCertification": true
+}]
