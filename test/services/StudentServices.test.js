@@ -19,7 +19,7 @@ describe("Tests for StudentServices.js", () => {
     test("3. A test for StudentServices class getStudentsByCredit", () => {
         const students = [{"id": "1","name": "Dianita","email": "diana@dummymail.com","credits": 308,"haveCertification": false}, 
         {"id": "2","name": "Rosy","email": "rosy@dummymail.com", "credits": 608,"haveCertification": true}]
-        const studentsByCredits = StudentServices.filterStudentsByCredit(students,400 )
+        const studentsByCredits = StudentServices.filterStudentsByCredits(students,400 )
         expect(studentsByCredits).toStrictEqual([{"id": "2","name": "Rosy","email": "rosy@dummymail.com", "credits": 608,"haveCertification": true}]);
     });
     
