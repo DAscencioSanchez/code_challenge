@@ -1,0 +1,26 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "Code Challenge project for LaunchX",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DAscencioSanchez/code_challenge.git"
+  },
+  "author": "DAscencio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DAscencioSanchez/code_challenge/issues"
+  },
+  "homepage": "https://github.com/DAscencioSanchez/code_challenge#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
