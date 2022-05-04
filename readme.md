@@ -116,5 +116,11 @@
             const studentsByCredits = StudentServices.getStudentsByCredit(students,400 )
             expect(studentsByCredits).toStrictEqual([{"id": "2","name": "Rosy","email": "rosy@dummymail.com", "credits": 608,"haveCertification": true}]);
     ```
+5. Agregar un API para exponer nuestras funcionalidades en `server.js`.
 
+| Endpoint | Request | Response |
+|---|---|---|
+| `localhost:3000/v1/students` | `localhost:3000/v1/students` | Deberás obtener la lista de estudiantes de Visual Partners |
+| `localhost:3000/v1/students/have_certification/emails` | `localhost:3000/v1/students/have_certification/emails` | Deberás obtener los emails de estudiantes con certificacion |
+| `localhost:3000/v1/students/credits/:no_credits` | `localhost:3000/v1/students/credits/500` | Deberás obtener la lista de usernames con mas de 500 creditos |
 
